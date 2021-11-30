@@ -3,14 +3,14 @@
 # # # # # # # #
 
 # Basic
-name:               "Kiko"
-description:        "a clean, lightweight and minimalistic blog theme for jekyll"
+name:               "Ortsang-Kezeng"
+description:        "you are stepping into a place of nowhere"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//kiko.gfjaru.com"
-author:             "gfjaru"
+url:                "//kezeng.xyz"
+author:             "ortsang"
 twitter:
-  username:         "gfjaru"
+  username:         "KeZeng7"
 #facebook:
 #  app_id:           1234
 #    publisher:      1234
@@ -28,9 +28,9 @@ nav:
   - name:           "About"
     remote:         false
     localpath:      "about"
-  - name:           "Download"
+  - name:           "Out"
     remote:         true
-    href:           "//github.com/gfjaru/Kiko/releases"
+    href:           "//kezeng.xyz"
 
 # Sass
 sass:
