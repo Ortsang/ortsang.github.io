@@ -46,3 +46,14 @@ You can use `relative` template like this:
 ```
 {% raw %}[link]({% include relative %}{% post_url your-article-filename %}){% endraw %}
 ``` -->
+
+
+我。
+
+广东人，双性恋。
+
+剣道初段，SCA咖啡入门证。
+
+偏酸的咖啡，东南亚料理。
+
+road trip，跑过66号公路。
