@@ -20,8 +20,8 @@ description: >- # You can edit footer in _includes/footer.md
 
 google_analytics: # Enter your tracking ID. Not available on IPFS
 
-twitter_cards: off # Not available on IPFS. /assets/logo.png required
-twitter_username: 
+twitter_cards: on # Not available on IPFS. /assets/logo.png required
+twitter_username: KeZeng7
 
 # Build settings
 markdown: kramdown
