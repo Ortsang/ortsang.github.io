@@ -1,19 +1,48 @@
 ---
+layout: page
 title: About
 permalink: /about/
 ---
 
-<!-- <p class="lead"><a href="http://github.com/gfjaru/Kiko">Kiko</a> is a theme for <a href="http://jekyllrb.com">Jekyll</a>, the static site generator.</p>
+![shot](https://user-images.githubusercontent.com/8435623/34344912-0665d490-ea2e-11e7-9bd8-919a6ced2a40.png)
 
-Kiko is simple, lightweight theme. It's designed and developed by [@gfjaru](https://twitter.com/gfjaru). -->
+Ultralight is super-lightweight responsive super Jekyll theme.
+It can be hosted on GitHub Pages/IPFS.
 
+[demo1](https://kotet.github.io/ultralight/)
 
-Ortsang is the Cantonese name of KeZENG.
+### Output size:
 
-广东人，双性恋。
+- [minima@affcd93](https://github.com/jekyll/minima/tree/affcd93be22e960afd2be08e6891d99b31bcf920): 256K
+- **[ultralight@9bffabb](https://github.com/kotet/ultralight/tree/9bffabb42cc64c0be563d5c3d3977ab6bb5761b9): 40K**
 
-剣道初段，网球，冲浪，射击。
+### Pagespeed:
 
-喜欢偏酸的咖啡，东南亚料理，腊八蒜炒大肠。
+![screenshot from 2017-12-26 10-17-46](https://user-images.githubusercontent.com/8435623/34344205-7f316c3e-ea26-11e7-8fcb-1184ee929c8d.png)
 
-road trip，跑过66号公路。
+## Usage
+
+### GitHub Pages
+
+```console
+$ git clone https://github.com/kotet/ultralight.git && cd ultralight
+$ git remote set-url origin https://github.com/yourname/yourname.github.io.git
+$ git push origin master
+```
+
+### IPFS
+
+```console
+$ git clone https://github.com/kotet/ultralight.git && cd ultralight
+$ bundle && bundle exec jekyll build
+$ ipfs add -r _site/
+```
+
+#### Internal link
+
+On IPFS, all internal links must be relative links.
+You can use `relative` template like this:
+
+```
+{% raw %}[link]({% include relative %}{% post_url your-article-filename %}){% endraw %}
+```

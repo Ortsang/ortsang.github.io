@@ -1,31 +1,46 @@
-# Ortsang
+# ultralight
 
-<!-- [Kiko](http://github.com/gfjaru/Kiko) is a theme for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@gfjaru](https://twitter.com/gfjaru).
+[![Build Status](https://travis-ci.org/kotet/ultralight.svg?branch=master)](https://travis-ci.org/kotet/ultralight)
 
-[See it live](https://kiko.gfjaru.com/) -->
+![shot](https://user-images.githubusercontent.com/8435623/34344912-0665d490-ea2e-11e7-9bd8-919a6ced2a40.png)
 
-say something here
+Ultralight is super-lightweight responsive super Jekyll theme.
+It can be hosted on GitHub Pages/IPFS.
 
-## Kiko-plus
+[demo1](https://kotet.github.io/ultralight/)
 
-https://github.com/AWEEKJ/Kiko-plus by. [@AWEEKJ](https://github.com/AWEEKJ)
+### Output size:
 
-## To do lists
+- [minima@affcd93](https://github.com/jekyll/minima/tree/affcd93be22e960afd2be08e6891d99b31bcf920): 256K
+- **[ultralight@9bffabb](https://github.com/kotet/ultralight/tree/9bffabb42cc64c0be563d5c3d3977ab6bb5761b9): 40K**
 
-Next update is new theme based from Kiko.
+### Pagespeed:
 
-## Get Started
+![screenshot from 2017-12-26 10-17-46](https://user-images.githubusercontent.com/8435623/34344205-7f316c3e-ea26-11e7-8fcb-1184ee929c8d.png)
 
-1. Fork this repository
-2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/Kiko`  
-3. Run it.<br />`jekyll serve`
-4. Go to http://127.0.0.1:4000.
+## Usage
 
-## Make it yours
+### GitHub Pages
 
-1. Change name and add/remove nav at `_config.yml`.
-2. Change `about.md`.
+```console
+$ git clone https://github.com/kotet/ultralight.git && cd ultralight
+$ git remote set-url origin https://github.com/yourname/yourname.github.io.git
+$ git push origin master
+```
 
-## License
+### IPFS
 
-This theme is released under MIT License.
+```console
+$ git clone https://github.com/kotet/ultralight.git && cd ultralight
+$ bundle && bundle exec jekyll build
+$ ipfs add -r _site/
+```
+
+#### Internal link
+
+On IPFS, all internal links must be relative links.
+You can use `relative` template like this:
+
+```
+[link]({% include relative %}{% post_url your-article-filename %})
+```

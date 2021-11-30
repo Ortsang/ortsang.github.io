@@ -1,55 +1,41 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Basic
-name:               "Kezeng"
-description:        "you are stepping into a place of nowhere"
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: ortsang
+baseurl: "" # For github pages
+description: >- # You can edit footer in _includes/footer.md 
+  ortsang is kezeng in cantonese. thats me.
 
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//kezeng.xyz"
-author:             "ortsang"
-twitter:
-  username:         "KeZeng7"
-#facebook:
-#  app_id:           1234
-#    publisher:      1234
+google_analytics: # Enter your tracking ID. Not available on IPFS
 
-# URL
-baseurl:            ""
-#baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title/
+twitter_cards: off # Not available on IPFS. /assets/logo.png required
+twitter_username: 
 
-# Markdown
-markdown:           kramdown
-
-# Navigation
-nav:
-  - name:           "About"
-    remote:         false
-    localpath:      "about"
-  - name:           "Out"
-    remote:         true
-    href:           "//kezeng.xyz"
-
-# Sass
+# Build settings
+markdown: kramdown
 sass:
-  style:            :compressed
+  style: compressed
 
-# Scopes
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-
-gems:
-  - jekyll-seo-tag
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
