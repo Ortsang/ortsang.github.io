@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Kiko
 
-You can use the [editor on GitHub](https://github.com/Ortsang/ortsang.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+[Kiko](http://github.com/gfjaru/Kiko) is a theme for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@gfjaru](https://twitter.com/gfjaru).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[See it live](https://kiko.gfjaru.com/)
 
-### Markdown
+## Kiko-plus
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+https://github.com/AWEEKJ/Kiko-plus by. [@AWEEKJ](https://github.com/AWEEKJ)
 
-```markdown
-Syntax highlighted code block
+## To do lists
 
-# Header 1
-## Header 2
-### Header 3
+Next update is new theme based from Kiko.
 
-- Bulleted
-- List
+## Get Started
 
-1. Numbered
-2. List
+1. Fork this repository
+2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/Kiko`  
+3. Run it.<br />`jekyll serve`
+4. Go to http://127.0.0.1:4000.
 
-**Bold** and _Italic_ and `Code` text
+## Make it yours
 
-[Link](url) and ![Image](src)
-```
+1. Change name and add/remove nav at `_config.yml`.
+2. Change `about.md`.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## License
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ortsang/ortsang.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This theme is released under MIT License.
