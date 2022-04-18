@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "CJR"
-tags: project
+categories: [project]
+tags: [project]
 mathjax: on
 ---
 <!-- 
