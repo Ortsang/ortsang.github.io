@@ -1,46 +1,105 @@
-# ultralight
+# Jekyll-Paper
 
-[![Build Status](https://travis-ci.org/kotet/ultralight.svg?branch=master)](https://travis-ci.org/kotet/ultralight)
+![Jekyll-Paper](./favicon.ico)
 
-![shot](https://user-images.githubusercontent.com/8435623/34344912-0665d490-ea2e-11e7-9bd8-919a6ced2a40.png)
+English | [简体中文](./README-CN.md)
 
-Ultralight is super-lightweight responsive super Jekyll theme.
-It can be hosted on GitHub Pages/IPFS.
+Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
 
-[demo1](https://kotet.github.io/ultralight/)
+Unfortunately, Jekyll Paper implement the category page by 'jekyll-archive' plugin, and GitHub Pages does not support it. So, this project is for self-host blog, and the Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper-github].
 
-### Output size:
+This is a [demo website](https://www.ghosind.com) for Jekyll Paper.
 
-- [minima@affcd93](https://github.com/jekyll/minima/tree/affcd93be22e960afd2be08e6891d99b31bcf920): 256K
-- **[ultralight@9bffabb](https://github.com/kotet/ultralight/tree/9bffabb42cc64c0be563d5c3d3977ab6bb5761b9): 40K**
+## Features
 
-### Pagespeed:
+- Responsive
+- Paginate
+- RSS
+- Sitemap
+- Custom 404 page
+- SASS
+- Internationalization
+- Configurable navigation menu
+- Categories Index
+- SEO optimization
+- Mathematics (MathJax)
+- Diagrams (Mermaid)
+- Comments (Disqus)
 
-![screenshot from 2017-12-26 10-17-46](https://user-images.githubusercontent.com/8435623/34344205-7f316c3e-ea26-11e7-8fcb-1184ee929c8d.png)
+## Getting Start
 
-## Usage
+Jekyll Paper is easy to create your own blog. You can create your blog by five steps only!
 
-### GitHub Pages
+1. `$ gem install bundler jekyll`
+2. `$ git clone git@github.com:ghosind/Jekyll-Paper.git`
+3. `$ cd Jekyll-Paper`
+4. `Jekyll-Paper $ bundle install`
+5. `Jekyll-Paper $ bundle exec jekyll serve`
 
-```console
-$ git clone https://github.com/kotet/ultralight.git && cd ultralight
-$ git remote set-url origin https://github.com/yourname/yourname.github.io.git
-$ git push origin master
+## Add New Posts
+
+You can add new posts at any time after you had your own blog. Create a new post need to add a new file in "_posts" directory, and the file name must follow the convention `YYYY-MM-DD-name-of-post.md`.
+
+## Custom Navigation Menu
+
+You can add or update navigation menu items in `_data/menus.yml` file. In the configuration file, you need set title and URL for every navigation menu item.
+
+### Example
+
+```yml
+- title: "Index"
+  url:   ""
+
+- title: "Github"
+  absoluteUrl: true
+  url: "https://github.com/john_doe"
+
+- title: "About"
+  url:   "about"
 ```
 
-### IPFS
+## Supported Languages
 
-```console
-$ git clone https://github.com/kotet/ultralight.git && cd ultralight
-$ bundle && bundle exec jekyll build
-$ ipfs add -r _site/
-```
+Jekyll Paper has supported the following languages, please set language in `language` section of `_config.yml` file (default `language: en`). I'm anticipating you to help me improve the quality of translations and add more languages. The languages list by alphabets of its language code.
 
-#### Internal link
+- English
+- Deutsche (German)
+- Español (Spanish)
+- Français (French)
+- 日本語 (Japanese)
+- Português (Portuguese)
+- 简体中文 (Simplified Chinese)
+- 繁體中文 (Traditional Chinese)
+- 한국어 (Korean)
 
-On IPFS, all internal links must be relative links.
-You can use `relative` template like this:
+## Screenshots
 
-```
-[link]({% include relative %}{% post_url your-article-filename %})
-```
+The home page:
+
+![Index](./assets/images/index-screenshot.png)
+
+The post page:
+
+![Post](./assets/images/post-screenshot.png)
+
+The category page:
+
+![Category](./assets/images/category-screenshot.png)
+
+The home page in mobile version:
+
+![Mobile](./assets/images/mobile-screenshot.png)
+
+## License
+
+Jekyll Paper was released under MIT license.
+
+## Contributing
+
+If you would like to make Jekyll Paper better, you can create a new pull request in [Jekyll Paper Github Page][jekyll-paper].
+
+If you have any questions or suggestions, you can create an issue on [Jekyll Paper Issues][jekyll-paper-issues].
+
+[jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
+[jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
+[jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
