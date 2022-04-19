@@ -6,42 +6,22 @@ permalink: /category/
 
 <!--添加搜索框-->
 <!--https://zoharandroid.github.io/2019-08-02-Jekyll%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BBCategory%E5%8A%9F%E8%83%BD/-->
-<br/>
-<!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="搜索博客 - 输入标题/相关内容/日期/Tags.." style="width:380px;"/>
-<ul id="results-container"></ul>
 
-<!-- script pointing to jekyll-search.js -->
-<script src="\{\{ site.baseurl \}\}/js/simple-jekyll-search.min.js"></script>
-
-<script>
-SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/search.json',
-    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-    noResultsText: '没有搜索到文章',
-    limit: 20,
-    fuzzy: false
-  })
-</script>
-<br/>
-
-
+<!--https://blog.webjeda.com/jekyll-categories/-->
 <div id="archives">
-{\%\for category in site.categories \%\}
-  <div class="archive-group">
-    {\%\capture category_name \%\}\{\{ category | first \}\}{\%\endcapture \%\}
-    <div id="#\{\{ category_name | slugize \}\}"></div>
-    <p></p>
-
-    <h3 class="category-head">\{\{ category_name \}\} (\{\{site.categories[category_name].size()\}\})</h3>
-    <a name="\{\{ category_name | slugize \}\}"></a>
-    {\%\for post in site.categories[category_name] \%\}
-    <article class="archive-item">
-      <h4><a href="\{\{ site.baseurl \}\}\{\{ post.url \}\}">\{\{ post.title \}\}</a></h4>
-    </article>
-    {\%\endfor \%\}
+  {% for category in site.categories %}
+    <div class="archive-group">
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <div id="#{{ category_name | slugize }}"></div>
+      <p></p>
+  
+      <h3 class="category-head">{{ category_name }}</h3>
+      <a name="{{ category_name | slugize }}"></a>
+      {% for post in site.categories[category_name] %}
+      <article class="archive-item">
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      </article>
+      {% endfor %}
+    </div>
+  {% endfor %}
   </div>
-{\%\endfor \%\}
-</div>
