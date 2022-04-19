@@ -1,27 +1,33 @@
+/*
+ * post.scss
+ * Author: Chen Su <i@ghosind.com>
+ */
+
 @charset "utf-8";
 
 .post-title {
   text-align: center;
 }
 
-.post-author {
-  display: none;
+.post-excerpt {
+  padding: 10px;
 }
 
-.post-content p {
-  line-height: 20px;
+.post-content {
+  line-height: 24px;
 }
 
-.post-content img {
+.post-content img, .post-content svg {
   display: block;
   margin: 10px auto;
 }
 
 .post-info {
-  line-height: 24px;
   margin: 10px 0;
+  line-height: 24px;
 }
 
-.post-category, .post-tag {
+.post-category,
+.post-tag {
   margin: 0 5px;
 }

@@ -1,13 +1,11 @@
-- title: "main"
-  absoluteUrl: true
-  url: "https://kezeng.xyz"
+- title: "Blog"
+  url: "/"
+  
+- title: "Categories"
+  url: "/categories"
 
-- default: menu_index
-  url:   ""
-
-- default: menu_category
-  url:   "category"
-
-- default: menu_about
-  url:   "about"
-
+- title: "Projects"
+  url: "/projects"
+  
+- title: "About"
+  url: "/about"
