@@ -13,20 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ghosind
-author: Chen Su
-email: i@ghosind.com
-description: Focus on Computer Science, Mathematics, and Electrics
-keywords: [computer science, programming, ghosind, blog]
+title: KeSurf
+author: Ke Zeng / Or Tsang
+email: youxiang@kezeng.xyz
+description: Economist
+keywords: [economics, programming, blog]
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.ghosind.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kezeng.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 
-facebook: chen.su.7796
-twitter: ghosind
-github: ghosind
-googleplus: 117918051202088747904
-linkedin: chen-su-507116123
-stackoverflow: 2685733
+facebook: kezeng
+twitter: kezeng-7
+github: ortsang
+# googleplus: 117918051202088747904
+linkedin: zeng-ke-667897a9
+# stackoverflow: 2685733
 
 comments: true
 disqus: ghosind
@@ -36,7 +36,7 @@ paginate_path: "/page:num/"
 
 permalink: /:year/:month/:day/:title
 
-google_analytics: UA-87927057-1
+# google_analytics: UA-87927057-1
 
 sass:
   sass_dir: _sass

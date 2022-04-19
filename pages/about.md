@@ -4,7 +4,15 @@ title: About Me
 permalink: /about
 ---
 
-后端研发工程师，具有多年开发经验。目前工作方向为Node.js/Golang后端研发，熟悉C、Java、C#等语言。对操作系统、编译器、游戏开发等领域较有兴趣。
+我。
+
+广东人，双性恋。
+
+剣道初段，SCA咖啡入门证。
+
+偏酸的咖啡，东南亚料理。
+
+road trip，跑过66号公路。
 
 ## Contact Me
 
