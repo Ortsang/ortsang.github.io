@@ -49,7 +49,7 @@ You can use `relative` template like this:
 
 
 
-![](https://github.com/Ortsang/ortsang.github.io/blob/main/pic/pics.jpg =250x250)
+![](/assets/images/IMG_95951)
 
 我。
 
