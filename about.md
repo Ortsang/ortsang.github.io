@@ -48,6 +48,9 @@ You can use `relative` template like this:
 ``` -->
 
 
+
+![screenshot from 2017-12-26 10-17-46](https://github.com/Ortsang/ortsang.github.io/blob/main/pic/pics.jpg)
+
 我。
 
 广东人，双性恋。
