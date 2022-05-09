@@ -49,7 +49,7 @@ You can use `relative` template like this:
 
 
 
-[icon](/assets/images/IMG_95951.JPG)
+![icon](/doc/assets/IMG_95951.jpg)
 
 我。
 
