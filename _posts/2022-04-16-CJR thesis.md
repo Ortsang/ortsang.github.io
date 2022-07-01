@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "test"
-tags: jekyll
+title:  "CJR research"
+tags: Research
 mathjax: on
 ---
 <!-- 
