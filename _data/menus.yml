@@ -4,9 +4,13 @@
 - default: menu_category
   url:   "category"
 
-- title: "Jekyll Paper"
+- default: menu_resume
+  url:   "resume"
+
+- title: "Github"
   absoluteUrl: true
-  url: "https://github.com/ghosind/Jekyll-Paper"
+  url: "https://github.com/Ortsang"
 
 - default: menu_about
   url:   "about"
+

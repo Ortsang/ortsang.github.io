@@ -2,6 +2,7 @@ en:
   menu_index: "Index"
   menu_category: "Categories"
   menu_about: "About"
+  menu_resume: "Resume"  # adding for resume
   paginator_previous: "Previous"
   paginator_pages: "Page: "
   paginator_next: "Next"
@@ -18,6 +19,7 @@ de:
   menu_index: "Index"
   menu_category: "Kategorien"
   menu_about: "Über"
+  menu_resume: "Fortsetzen" # adding for resume
   paginator_previous: "Bisherige"
   paginator_pages: "Seite: "
   paginator_next: "Nächster"
@@ -50,6 +52,7 @@ fr:
   menu_index: "Indice"
   menu_category: "Catégories"
   menu_about: "Sur"
+  menu_resume: "CV" # adding for resume
   paginator_previous: "Précédent"
   paginator_pages: "Page: "
   paginator_next: "Prochain"
@@ -66,6 +69,7 @@ ja:
   menu_index: "ホーム"
   menu_category: "分類"
   menu_about: "私について"
+  menu_resume: "履歴書" # adding for resume
   paginator_previous: "前のページ"
   paginator_pages: "ページ数："
   paginator_next: "次のページ"
@@ -98,6 +102,7 @@ zh-cn:
   menu_index: "首页"
   menu_category: "分类"
   menu_about: "关于我"
+  menu_about: "简历"
   paginator_previous: "前一页"
   paginator_pages: "页数："
   paginator_next: "后一页"
@@ -114,6 +119,7 @@ zh-tw:
   menu_index: "首頁"
   menu_category: "分類"
   menu_about: "關於我"
+  menu_about: "履歷"
   paginator_previous: "前一頁"
   paginator_pages: "頁數："
   paginator_next: "後一頁"
