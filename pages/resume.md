@@ -31,41 +31,42 @@ Using: `R`, `STATA`, `Python` <br />
 * [Midwest Economics Association 86th Annual Meetings](https://mea.sites.grinnell.edu/forms-and-guidelines/)  
 
 ### 👩🏼‍💻Work Experience
-**External Consultant**@[__World Bank Group__](https://www.worldbank.org/en/home), Data Whale <br />
+#### **External Consultant**@[__World Bank Group__](https://www.worldbank.org/en/home), Data Whale <br />
 *Jun. 2021 -*
-* Led a project to develop and maintain the [Health Equity and Financial Protection Indicator (HEFPI)](https://datatopics.worldbank.org/health-equity-and-financial-protection/)by collecting and harmonizing the raw data from surveys, covered more than 30 countries
-* Developed and maintained a data model for [Multiple Indicator Cluster Survey](https://mics.unicef.org/), a World Bank initiative aimed at improving data collection in low‑ and middle‑income countries. Worked on harmonizing data from four countries: Kosovo, Tongo, Tonga, and Serbia.
-* Using: `R`, `STATA`.  
+* Led the data projects [Health Equity and Financial Protection Indicator (HEFPI)](https://datatopics.worldbank.org/health-equity-and-financial-protection/) and [Multiple Indicator Cluster Survey](https://mics.unicef.org/) by proposing ETL (Extract, Transform, Load) workflows from surveys, covered 38 countries for 20 years, with more than 200 variables and millions of observations, coded in `Stata`.
+* Mentored and supervised a team of 3 junior data professionals, providing guidance and training to ensure they were able to quickly adapt to the project requirements and produce high‑quality work.
+* Collaborated with cross‑functional teams in WBG including public health researchers and policymakers to ensure the project results were actionable and impactful in addressing health and financial disparities.
 
-**Quantitative Analyst**@[__Immigration Research Initiative__](https://immresearch.org/about/staff/) <br />
+#### **Quantitative Analyst**@[__Immigration Research Initiative__](https://immresearch.org/about/staff/) <br />
 *Nov. 2021 -*
-* Implemented various models to abstract the living and employment status of immigrants in the US, utilizing data from the American Community Survey and Current Population Survey, with a dataset of 15 million observations and 59 variables reflecting the US population universe.
-* Generated regional visualizations of results using geographic data in R, which have been applied to multiple organizational reports at the presentation.
-* Using: `R`, `STATA`, `Python`.  
+* Utilized a dataset of 15 million observations and 59 variables reflecting the US population universe to create models that accurately abstracted the living and employment status of immigrants in the US, resulting in a 99% precise match with results from the Census Bureau, coded in `R`.
+* Developed a data abstraction pipeline that created 30+ data outputs, showcasing the working and living standards of New York State’s population and covering 90% of annual report outcomes.
+* Generated interactive dashboards that visualized the results of 20+ geographies and 200+ occupations in `R`, which were applied to multiple organizational reports and presentations.
+* Provided data and technical assistance to six partner organizations, supporting their data analysis and interpretation efforts.
 
-**Medical Research Intern**@[__COTA__](https://cotahealthcare.com/) <br />
+#### **Medical Research Intern**@[__COTA__](https://cotahealthcare.com/) <br />
 *Jun. 2022 - Aug. 2022*
-* Led an investigation of patient outcomes on [ICI](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors) therapy using survival analysis, propensity score matching and ARIMA time series in R, identifying positive outcomes of applying multiple lines of ICI regimens. Results are applied to company reports and research.
-* Proposed analysis methods, including Causality and ML methods, and executed research plans to interpret patient record outcomes. Summarized findings into reports, with one report leading to company‑wide changes in inhibitor interpretation protocol and process pipeline.
-* Introduced and developed an analysis pipeline of synthetic control arms for predicting patient outcomes using tree‑based predictors and causality methods.
-* Developed pipelines and dictionaries for searching and separating ICI regimens, which are provided to the whole company.
+* Led an investigation of patient outcomes on [ICI](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors) therapy using survival analysis, propensity score matching and ARIMA in `R` and `Python`.
+* Identified a novel finding in oncology research, demonstrating the positive outcomes of applying multiple lines of ICI regimens.
+* Proposed Causality and Machine Learning methods including Regression Discontinuity and Lasso Regression to interpret patient record outcomes, leading to company‑wide changes in inhibitor interpretation protocol and process pipeline.
+* Developed an analysis pipeline of synthetic control arms using tree‑based predictors and causality methods to predict patient outcomes, creating a counterfactual control group containing 1000+ patients.
+* Created pipelines and dictionaries for searching and separating ICI regimens, providing this resource to the entire company to improve data analysis efficiency and accuracy.
 
-**Data Analyst**@__Fiscal Policy Institute__  <br />
+#### **Data Analyst**@__Fiscal Policy Institute__  <br />
 *Jan. 2019 - Nov. 2021*
-* Led projects employment to abstract and visualize of data outcomes for an annual report on immigration status using the Current Population Survey. Conducted data abstraction and time series analysis in R and Stata. Results help to allocate $2.1 billion to the Excluded Worker Fund, which was designed to address various FPI reports related to immigration.
-* Technologies used: `R`, `STATA`, `Python`.
+* Led projects to show immigrants employment status by analysis (Pandas/ARIMA) and visualization. Results fill the gap of immigrant analysisand help to allocate $2.1 billion Excluded Worker Fund, coded in `Python` and `R`.
 
-**Adjunt Professor**@__CUNY__  <br />
+#### **Adjunt Professor**@__CUNY__  <br />
 *Sep. 2018 ‑ Aug. 2021*
 * Lectured ECO321 Introduction to Econometrics at Hunter College, RateMyProf ‑ 4/5, topics covering statistics, regression model and time series.
 * Lectured ECON2100 Elementary Macroeconomics at Brooklyn College, topics covering multiple macroeconomics issues.
 
-**Intern**@__UN Environment__ <br />
+#### **Intern**@__UN Environment__ <br />
 *Apr. 2017 ‑ Jul. 2017*
 * Provided assistance in the coordination and organization of several high‑profile events related to green development, including the International Coalition for Green Development on the Belt and Road Conference, BRICS summit, Environment Minister Conference, World Environment Day 2017, and UN Environment Kubuqi Summer Camp.
 * Provided support to Erik Solheim, the former Executive Director of UNEP, by assisting with political briefings and preparing his daily schedule. Played a critical role in facilitating the efficient operation of the Executive Director’s office by managing communication, organizing meetings, and maintaining information flow.
 
-**Intern**@__United Nations Development Program__ <br />
+#### **Intern**@__United Nations Development Program__ <br />
 *Nov. 2016 ‑ Jun. 2017*
 * Played a key role in the organization of events promoting sustainable development, such as the United Nations Country Team Retreat 2017, World Environment Day 2017 held in Tongzhou, Beijing, and UN Environment Kubuqi Summer Camp.
 * Supported the successful implementation of several UNDP projects, such as the UNDP‑Rechsan sustainable rice cultivation project, UNDP‑Rugao Hydrogen City project, and UNDP‑JA Solar PV project.
