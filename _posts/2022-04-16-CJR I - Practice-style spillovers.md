@@ -2,6 +2,7 @@
 layout: post
 title:  "CJR research"
 tags: Research
+categories: [Research]
 mathjax: on
 ---
 # Introduction
