@@ -58,7 +58,7 @@ jekyll-archives:
     - tags
   layout: archive
   permalinks:
-    category: /categories/:name/
+    categories: /categories/:name/
 #    tag: /tag/:name/
 
 # Build settings
