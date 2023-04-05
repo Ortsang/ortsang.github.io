@@ -34,16 +34,16 @@ language: en
 # zh-tw: 繁體中文 (Traditional Chinese)
 # ko : 한국어(Korean)
 
-analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
+analytics: # the Google Analytics property ID, e.g. UA-XXXXX-Y
+
+comments: false # enable comments
+disqus: # disqus account
+
+mathjax: true # Math support
+diagram: true # Diagrams support
 
 paginate: 25
-paginate_path: "/page:num/"
-
-comments: false  # enable comments
-disqus:          # disqus account
-
-mathjax: true # Mathematics
-mermaid: true # Diagrams
+paginate_path: '/page:num/'
 
 permalink: /:year/:month/:day/:title
 
@@ -51,25 +51,13 @@ sass:
   sass_dir: _sass
   style: expanded # compressed, compact, expanded or compressed
 
-# Category settings
-jekyll-archives:
-  enabled: 
-    - categories
-    - tags
-  layout: archive
-  permalinks:
-    categories: /categories/:name/
-#    tag: /tag/:name/
-
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-archives
   - jekyll-seo-tag
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
