@@ -59,7 +59,7 @@ jekyll-archives:
   layout: archive
   permalinks:
     categories: /categories/:name/
-    tag: /tag/:name/
+    #tag: /tag/:name/
 
 # Build settings
 markdown: kramdown
