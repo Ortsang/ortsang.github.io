@@ -22,7 +22,7 @@ keywords: [Your keywords]
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kezeng.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "kezeng.xyz" # the domain name for your site, e.g. example.com
-language: zh-tw
+language: zh-cn
 # Supported languages list:
 # en: English
 # de: Deutsche (German)
