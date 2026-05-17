@@ -1,16 +1,15 @@
-- default: menu_index
-  url:   ""
+- title: "Home"
+  url: ""
 
-- default: menu_category
-  url:   "categories"
+- title: "Research"
+  url: "research"
 
-- default: menu_resume
-  url:   "resume"
+- title: "Journals"
+  url: "journals"
 
-- title: "Github"
+- title: "Map"
+  url: "map"
+
+- title: "GitHub"
   absoluteUrl: true
   url: "https://github.com/Ortsang"
-
-- default: menu_about
-  url:   "about"
-

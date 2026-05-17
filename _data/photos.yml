@@ -1,0 +1,14 @@
+# Photo map entries.
+# Add one entry per photo location:
+#
+# - title: "Location Name"
+#   lat: 40.7128          # latitude (decimal degrees, positive = North)
+#   lng: -74.0060         # longitude (decimal degrees, positive = East)
+#   image: /assets/images/photos/filename.jpg   # path to your image
+#   caption: "Optional caption text"
+
+- title: "New York City"
+  lat: 40.7128
+  lng: -74.0060
+  image:
+  caption: "Home base"

@@ -1,0 +1,67 @@
+---
+layout: default
+title: Journals
+permalink: /journals/
+---
+
+<article class="container-page">
+  <div class="page-title">
+    <h1>Journals</h1>
+  </div>
+
+  {% assign journal_posts = "" | split: "" %}
+  {% for post in site.posts %}
+    {% unless post.categories contains "Research" %}
+      {% assign journal_posts = journal_posts | push: post %}
+    {% endunless %}
+  {% endfor %}
+
+  {% assign section_cats = "" | split: "" %}
+  {% for post in journal_posts %}
+    {% for cat in post.categories %}
+      {% unless section_cats contains cat %}
+        {% assign section_cats = section_cats | push: cat %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    {% for cat in section_cats %}
+    <button class="filter-btn" data-filter="{{ cat }}">{{ cat }}</button>
+    {% endfor %}
+  </div>
+
+  <div class="posts-filtered">
+    {% for post in journal_posts %}
+    <div class="posts-list-item" data-cats="{{ post.categories | join: '|' }}">
+      <span class="posts-list-item-name float-left">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </span>
+      <span class="posts-list-item-date float-right">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</article>
+
+<script>
+(function () {
+  var btns = document.querySelectorAll('.filter-btn');
+  var items = document.querySelectorAll('.posts-filtered .posts-list-item');
+  btns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      btns.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filter = btn.getAttribute('data-filter');
+      items.forEach(function (item) {
+        if (filter === 'all') {
+          item.style.display = '';
+        } else {
+          var cats = item.getAttribute('data-cats').split('|');
+          item.style.display = cats.indexOf(filter) !== -1 ? '' : 'none';
+        }
+      });
+    });
+  });
+}());
+</script>

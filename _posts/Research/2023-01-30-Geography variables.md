@@ -2,6 +2,7 @@
 layout: post
 title:  "Geography variables in US"
 tags: Research
+categories: [Research]
 mathjax: on
 ---
 ## Introduction
