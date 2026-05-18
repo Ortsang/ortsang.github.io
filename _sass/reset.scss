@@ -3,7 +3,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Courier New, Courier, monospace;
+  font-family: 'IBM Plex Serif', Georgia, serif;
+}
+
+code, pre, kbd, samp {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
 }
 
 html, body {
@@ -49,7 +53,8 @@ ol, ul {
 }
 
 p {
-  margin-bottom: 5px;
+  margin-bottom: 1em;
+  line-height: 1.65;
 }
 
 table {

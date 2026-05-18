@@ -5,6 +5,9 @@
 {% if site.keywords or page.tags %}
 <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ','}}{% else %}{{ site.keywords | join: ',' }}{% endif %}" />
 {% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap" />
 <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/favicon.ico"/>
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />

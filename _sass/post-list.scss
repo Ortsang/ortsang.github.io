@@ -9,8 +9,14 @@
 }
 
 .posts-list-item-name {
-  width: calc(100% - 100px);
-  font-weight: 300;
+  width: calc(100% - 110px);
+  font-weight: 400;
+}
+
+.posts-list-item-date {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  font-size: 0.82em;
+  color: #888;
 }
 
 .posts-list-pagination {

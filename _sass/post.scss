@@ -9,7 +9,7 @@
 }
 
 .post-content p {
-  line-height: 20px;
+  line-height: 1.65;
 }
 
 .post-content img {
@@ -20,6 +20,9 @@
 .post-info {
   line-height: 24px;
   margin: 10px 0;
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  font-size: 0.82em;
+  color: #888;
 }
 
 .post-category, .post-tag {
