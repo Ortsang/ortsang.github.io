@@ -29,14 +29,43 @@ layout: default
       {% endfor %}
     </div>
     <div class="post-tools">
-      {% if page.next %}
+      {% if page.categories contains "Research" %}
+        {% assign same_cat_posts = "" | split: "" %}
+        {% for p in site.posts %}
+          {% if p.categories contains "Research" %}
+            {% assign same_cat_posts = same_cat_posts | push: p %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign same_cat_posts = "" | split: "" %}
+        {% for p in site.posts %}
+          {% unless p.categories contains "Research" %}
+            {% assign same_cat_posts = same_cat_posts | push: p %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+      {% assign cat_next = nil %}
+      {% assign cat_prev = nil %}
+      {% assign found = false %}
+      {% for p in same_cat_posts %}
+        {% if found == false %}
+          {% if p.url == page.url %}
+            {% assign found = true %}
+          {% else %}
+            {% assign cat_next = p %}
+          {% endif %}
+        {% elsif cat_prev == nil %}
+          {% assign cat_prev = p %}
+        {% endif %}
+      {% endfor %}
+      {% if cat_next %}
       <div>
-        <span>{{ site.data.lang[site.language].post_next }}</span><a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
+        <span>{{ site.data.lang[site.language].post_next }}</span><a href="{{ site.baseurl }}{{ cat_next.url }}">{{ cat_next.title }}</a>
       </div>
       {% endif %}
-      {% if page.previous %}
+      {% if cat_prev %}
       <div>
-        <span>{{ site.data.lang[site.language].post_previous }}</span><a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
+        <span>{{ site.data.lang[site.language].post_previous }}</span><a href="{{ site.baseurl }}{{ cat_prev.url }}">{{ cat_prev.title }}</a>
       </div>
       {% endif %}
     </div>
